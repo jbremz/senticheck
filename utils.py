@@ -24,10 +24,9 @@ def makeDF(data_path):
     '''
     Inputs:
     data_path - the path of the directory containing the pos/neg directories
-    samples - number of text samples to take for each language
 
     Returns:
-    A pandas dataframe with the string and the language
+    A pandas dataframe with the string and the sentiment
 
     '''
     sentis = ['pos','neg']
